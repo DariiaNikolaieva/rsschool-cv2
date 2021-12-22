@@ -40,3 +40,13 @@ function getSum( a,b )
 
 * **Name:** [Filmoteka](https://innapalchynska.github.io/Filmoteka/)\
 **About** mobile-first adaptive web-page of searching movies with authorization, profile page, ability to add movies to the library, and filtering the list of movies in different ways
+
+## **Education**
+* IT School GoIT 2020-2021\
+ Full stack developer (full-attending)
+
+* T. Shevchenko NUK 2012-2016\
+ Legal Science
+
+* KNLU 2005-2010\
+ Spanish Philology 
