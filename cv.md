@@ -5,3 +5,6 @@
 * ***Tel:*** +380683760652
 * ***E-mail:*** nikolaieva.dariya@gmail.com
 * ***LinkedIn:*** [Dariia Nikolaieva](https://www.linkedin.com/in/dariia-nikolaieva-a2075b9/)
+
+## **About me**
+Aspiring front-end developer passionate about developing user-friendly software applications. Believe in life-long learning and always try to find more efficient ways of doing something.
