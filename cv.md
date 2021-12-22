@@ -50,3 +50,8 @@ function getSum( a,b )
 
 * KNLU 2005-2010\
  Spanish Philology 
+
+ ## **English Level**
+* B2
+* [English For Tech](https://english4it.online/tech-ua)\
+![](EnglishForTech.jpg){:width="50px"}
