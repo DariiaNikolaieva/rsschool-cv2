@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins:wght@300;500;700&family=Raleway&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
     <script>
       hljs.initHighlightingOnLoad();
@@ -95,14 +95,13 @@
               <h3 class="section-title contacts_title">Contacts</h3>
               <ul class="contacts_list">
                 <li class="contacts_item">
-                  <a
-                    class="contacts_link"
-                    href="https://goo.gl/maps/d7yTSyKEdrwNvUur5"
-                  >
+                  <a class="contacts_link" href="tel:+380683760652">
                     <svg class="icon" width="20" height="20">
-                      <use href="./images/symbol-defs.svg#icon-pin"></use>
+                      <use
+                        href="./images/symbol-defs.svg#icon-phone"
+                      ></use>
                     </svg>
-                    Kyiv, Ukraine</a
+                    +380 68 3760652</a
                   >
                 </li>
                 <li class="contacts_item">
@@ -145,6 +144,17 @@
                     nikolaieva.dariya@gmail.com</a
                   >
                 </li>
+                <li class="contacts_item">
+                  <a
+                    class="contacts_link"
+                    href="https://goo.gl/maps/d7yTSyKEdrwNvUur5"
+                  >
+                    <svg class="icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-pin"></use>
+                    </svg>
+                    Kyiv, Ukraine</a
+                  >
+                </li>
               </ul>
             </section>
 
@@ -161,13 +171,10 @@
                   <span class="tech-skill_name">React.js</span>
                 </li>
                 <li class="tech-skills_item">
-                  <span class="tech-skill_name">Redux</span>
-                </li>
-                <li class="tech-skills_item">
                   <span class="tech-skill_name">GIT</span>
                 </li>
                 <li class="tech-skills_item">
-                  <span class="tech-skill_name">Parcel</span>
+                  <span class="tech-skill_name">Webpack</span>
                 </li>
                 <li class="tech-skills_item">
                   <span class="tech-skill_name">REST API</span>
@@ -280,11 +287,6 @@ function renderCountryCard(country) {
                 <p class="education_period">2020-2021</p>
               </li>
               <li class="education_item">
-                <span class="education_name">English for Tech </span>
-                <p class="education_info">Level 1</p>
-                <p class="education_period">2021</p>
-              </li>
-              <li class="education_item">
                 <span class="education_name">T. Shevchenko NUK</span>
                 <p class="education_info">Legal Science</p>
                 <p class="education_period">2012-2016</p>
@@ -356,13 +358,20 @@ function renderCountryCard(country) {
       <footer class="footer">
         <ul class="footer_list">
           <li class="footer_item">
-            <a class="footers_link" href="https://github.com/DariiaNikolaieva/rsschool-cv/pull/6">
+            <a class="footers_link" href="https://github.com/DariiaNikolaieva/rsschool-cv/" target="_blank">
               <svg class="icon-git" width="50" height="50">
                 <use href="./images/symbol-defs.svg#icon-github"></use>
               </svg>
             </a>
           </li>
-          <li class="footer_item section-title footer_year">2021</li>
+          <li class="footer_item">
+            <a class="footers_link" href="https://rs.school/js/" target="_blank">
+              <svg class="icon-git" width="90" height="50">
+                <use href="./images/symbol-defs.svg#icon-rs_school_js"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer_item section-title footer_year">2022</li>
         </ul>
         <a href="#" class="scrollup">&#11165;</a>
         <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">
