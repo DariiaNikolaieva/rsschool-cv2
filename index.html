@@ -184,6 +184,35 @@
             </li>
           </ul>
         </section>
+        <section class="code-container" id="code">
+          <h3 class="section-title code-title">Code example</h3>
+          <pre>
+              <code class="code language-js">
+function renderCountryCard(country) {
+  if (country.status === 404) {
+    onFetchError(error);
+  }
+
+  if (country.length > 10) {
+    PNotify.error({
+      text: 'Too many matches found! 
+      Please enter a more specific query!',
+    });
+  }
+
+  if (country.length => 2 && country.length = 10) {
+    const countryListMarkup = countryListTpl(country);
+    refs.countryContainer.innerHTML = countryListMarkup;
+  }
+
+  if (country.length === 1) {
+    const countryItemMarkup = countryItemTpl(country);
+    refs.countryContainer.innerHTML = countryItemMarkup;
+  }
+}
+            </code>
+            </pre>
+        </section>
       </main>
     </div>
   </body>
