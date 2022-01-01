@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins:wght@300;500;700&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>CV Dariia Nikolaieva</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header" id="top">
+        <nav class="navigation">
+          <button class="nav__button" type="button">
+            <svg width="40" height="40">
+              <use
+                class="menu__mob"
+                href="./images/symbol-defs.svg#icon-menu_mob"
+              ></use>
+              <use
+                class="close__mob"
+                href="./images/symbol-defs.svg#icon-close_mob"
+              ></use>
+            </svg>
+          </button>
+          <div class="nav_container" id="nav_container">
+            <ul class="nav_list">
+              <li class="nav_item">
+                <a class="nav_link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav_item">
+                <a class="nav_link" href="#contacts">Contacts</a>
+              </li>
+              <li class="nav_item">
+                <a class="nav_link" href="#tech-skills">Tech skills</a>
+              </li>
+              <li class="nav_item">
+                <a class="nav_link" href="#experience">Experience</a>
+              </li>
+              <li class="nav_item">
+                <a class="nav_link" href="#code">Code Example</a>
+              </li>
+              <li class="nav_item">
+                <a class="nav_link" href="#education">Education</a>
+              </li>
+              <li class="nav_item">
+                <a class="nav_link" href="#languages">Languages</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div class="about-me_container">
+          <section class="hero">
+            <h3 class="hidden-title">Photo</h3>
+            <figure>
+              <img
+                class="hero_photo"
+                src="./images/photo.jpg"
+                alt="Dariia Nikolaieva"
+                width="420"
+              />
+            </figure>
+          </section>
+
+          <section class="about-me">
+            <h1 class="about-me_name" id="about-me">Dariia Nikolaieva</h1>
+            <h2 class="about-me_profession">Front-end developer</h2>
+            <h3 class="section-title about-me_title hidden-title">Profile</h3>
+            <p class="about-me_description">
+              Aspiring front-end developer passionate about developing
+              user-friendly software applications. Believe in life-long learning
+              and always try to find more efficient ways of doing something.
+            </p>
+          </section>
+        </div>
+
+        <aside class="sidebar">
+          <div class="contacts_tech-skills_container">
+            <section class="contacts" id="contacts">
+              <h3 class="section-title contacts_title">Contacts</h3>
+              <ul class="contacts_list">
+                <li class="contacts_item">
+                  <a class="contacts_link" href="tel:+380683760652">
+                    <svg class="icon" width="20" height="20">
+                      <use
+                        href="./images/symbol-defs.svg#icon-phone"
+                      ></use>
+                    </svg>
+                    +380 68 3760652</a
+                  >
+                </li>
+                <li class="contacts_item">
+                  <a class="contacts_link" href="https://t.me/DariiaNikolaieva">
+                    <svg class="icon" width="20" height="20">
+                      <use
+                        href="./images/symbol-defs.svg#icon-telegram-1"
+                      ></use>
+                    </svg>
+                    @DariiaNikolaieva</a
+                  >
+                </li>
+                <li class="contacts_item">
+                  <a class="contacts_link" href="https://discord.gg/HJmWq836sw">
+                    <svg class="icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-discord"></use>
+                    </svg>
+                    Dariia Nikolaieva</a
+                  >
+                </li>
+                <li class="contacts_item">
+                  <a
+                    class="contacts_link"
+                    href="https://www.linkedin.com/in/dariia-nikolaieva-a2075b9/"
+                  >
+                    <svg class="icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                    Dariia Nikolaieva</a
+                  >
+                </li>
+                <li class="contacts_item">
+                  <a
+                    class="contacts_link"
+                    href="mailto:nikolaieva.dariya@gmail.com"
+                  >
+                    <svg class="icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                    </svg>
+                    nikolaieva.dariya@gmail.com</a
+                  >
+                </li>
+                <li class="contacts_item">
+                  <a
+                    class="contacts_link"
+                    href="https://goo.gl/maps/d7yTSyKEdrwNvUur5"
+                  >
+                    <svg class="icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-pin"></use>
+                    </svg>
+                    Kyiv, Ukraine</a
+                  >
+                </li>
+              </ul>
+            </section>
+
+            <section class="tech-skills" id="tech-skills">
+              <h3 class="section-title tech-skills_title">Technical Skills</h3>
+              <ul class="tech-skills_list">
+                <li class="tech-skills_item">
+                  <span class="tech-skill_name">HTML5/ CSS3</span>
+                </li>
+                <li class="tech-skills_item">
+                  <span class="tech-skill_name">JavaScript Es6+</span>
+                </li>
+                <li class="tech-skills_item">
+                  <span class="tech-skill_name">React.js</span>
+                </li>
+                <li class="tech-skills_item">
+                  <span class="tech-skill_name">GIT</span>
+                </li>
+                <li class="tech-skills_item">
+                  <span class="tech-skill_name">Webpack</span>
+                </li>
+                <li class="tech-skills_item">
+                  <span class="tech-skill_name">REST API</span>
+                </li>
+                <li class="tech-skills_item">
+                  <span class="tech-skill_name">NPM</span>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </aside>
+
+        <section class="projects" id="experience">
+          <h3 class="section-title projects_title">Experience</h3>
+          <ul class="projects_list">
+            <li class="projects_item">
+              <a href="https://dariianikolaieva.github.io/goit-markup-hw-08/">
+                <img
+                  src="./images/web-studio.jpg"
+                  alt="Web-studio"
+                  width="100"
+                />
+              </a>
+              <div class="projects_info">
+                <a
+                  class="projects_link"
+                  href="https://dariianikolaieva.github.io/iTeamChic-IceProject/"
+                  >Web Studio</a
+                >
+                <p class="projects_description">
+                  mobile-first adaptive web-site with portfolio
+                </p>
+              </div>
+            </li>
+
+            <li class="projects_item">
+              <a
+                href="https://dariianikolaieva.github.io/iTeamChic-IceProject/"
+              >
+                <img src="./images/ice-cream.jpg" alt="Ice-cream" width="100" />
+              </a>
+              <div class="projects_info">
+                <a
+                  class="projects_link"
+                  href="https://dariianikolaieva.github.io/iTeamChic-IceProject/"
+                  >Ice Cream
+                </a>
+                <p class="projects_description">
+                  mobile-first adaptive landing page of the manufacture of
+                  ice-cream
+                </p>
+              </div>
+            </li>
+
+            <li class="projects_item">
+              <a href="https://innapalchynska.github.io/Filmoteka/">
+                <img src="./images/filmoteka.jpg" alt="Filmoteka" width="100" />
+              </a>
+              <div class="projects_info">
+                <a
+                  class="projects_link"
+                  href="https://innapalchynska.github.io/Filmoteka/"
+                  >Filmoteka</a
+                >
+                <p class="projects_description">
+                  mobile-first adaptive web-page of searching movies
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="code-container" id="code">
+          <h3 class="section-title code-title">Code example</h3>
+          <pre>
+              <code class="code language-js">
+function renderCountryCard(country) {
+  if (country.status === 404) {
+    onFetchError(error);
+  }
+
+  if (country.length > 10) {
+    PNotify.error({
+      text: 'Too many matches found! 
+      Please enter a more specific query!',
+    });
+  }
+
+  if (country.length => 2 && country.length = 10) {
+    const countryListMarkup = countryListTpl(country);
+    refs.countryContainer.innerHTML = countryListMarkup;
+  }
+
+  if (country.length === 1) {
+    const countryItemMarkup = countryItemTpl(country);
+    refs.countryContainer.innerHTML = countryItemMarkup;
+  }
+}
+            </code>
+            </pre>
+        </section>
+
+        <div class="languages_education_container">
+          <section class="education" id="education">
+            <h3 class="section-title education_title">Education</h3>
+            <ul class="education_list">
+              <li class="education_item">
+                <span class="education_name">IT School GoIT </span>
+                <p class="education_info">Full stack developer</p>
+                <p class="education_period">2020-2021</p>
+              </li>
+              <li class="education_item">
+                <span class="education_name">T. Shevchenko NUK</span>
+                <p class="education_info">Legal Science</p>
+                <p class="education_period">2012-2016</p>
+              </li>
+              <li class="education_item">
+                <span class="education_name">KNLU</span>
+                <p class="education_info">Spanish Philology</p>
+                <p class="education_period">2005-2010</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="languages" id="languages">
+            <h3 class="section-title languages_title">Languages</h3>
+            <div class="lang_cert_container">
+              <ul class="languages_list">
+                <li class="languages_item">
+                  <div class="language_info">
+                    <svg class="icon" width="20" height="20">
+                      <use
+                        href="./images/symbol-flags.svg#icon-united-kingdom"
+                      ></use>
+                    </svg>
+                    <p>English</p>
+                    <p class="languages_level1">Intermediate</p>
+                  </div>
+                </li>
+                <li class="languages_item">
+                  <div class="language_info">
+                    <svg class="icon" width="20" height="20">
+                      <use href="./images/symbol-flags.svg#icon-ukraine"></use>
+                    </svg>
+                    <p>Ukrainian</p>
+                    <p class="languages_level2">Native</p>
+                  </div>
+                </li>
+                <li class="languages_item">
+                  <div class="language_info">
+                    <svg class="icon" width="20" height="20">
+                      <use href="./images/symbol-flags.svg#icon-russia"></use>
+                    </svg>
+                    <p>Russian</p>
+                    <p class="languages_level3">Fluent</p>
+                  </div>
+                </li>
+                <li class="languages_item">
+                  <div class="language_info">
+                    <svg class="icon" width="20" height="20">
+                      <use href="./images/symbol-flags.svg#icon-spain"></use>
+                    </svg>
+                    <p>Spanish</p>
+                    <p class="languages_level4">Basic</p>
+                  </div>
+                </li>
+              </ul>
+              <a href="https://english4it.online/tech-ua">
+                <img
+                  class="english-level_certificate"
+                  src="./images/englishCertificate.jpg"
+                  alt="English For Tech Certificate"
+                  width="100"
+                />
+              </a>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <ul class="footer_list">
+          <li class="footer_item">
+            <a class="footers_link" href="https://github.com/DariiaNikolaieva/rsschool-cv/" target="_blank">
+              <svg class="icon-git" width="50" height="50">
+                <use href="./images/symbol-defs.svg#icon-github"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer_item">
+            <a class="footers_link" href="https://rs.school/js/" target="_blank">
+              <svg class="icon-git" width="90" height="50">
+                <use href="./images/symbol-defs.svg#icon-rs_school_js"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer_item section-title footer_year">2022</li>
+        </ul>
+        <a href="#" class="scrollup">&#11165;</a>
+        <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">
+          &#11165;
+        </button> -->
+      </footer>
+    </div>
+    <script src="./js/menu-btn.js"></script>
+    <script src="./js/smooth-scroll.js"></script>
+    <script src="./js/btn-toTop.js"></script>
+  </body>
+</html>
